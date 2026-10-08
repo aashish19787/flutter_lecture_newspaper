@@ -30,7 +30,7 @@ class _DashboardState extends State<Dashboard> {
                           color: Colors.grey,
                           borderRadius: BorderRadius.circular(20),
                         ),
-                        width: size.width/1.1,
+                        width: size.width / 1.1,
 
                         child: ClipRRect(
                           borderRadius: BorderRadius.circular(20),
@@ -59,7 +59,6 @@ class _DashboardState extends State<Dashboard> {
                             overflow: TextOverflow.ellipsis,
                             maxLines: 2,
                             style: TextStyle(color: Colors.white),
-
                           ),
                         ),
                       ),
@@ -98,7 +97,7 @@ class _DashboardState extends State<Dashboard> {
                           color: Colors.grey,
                           borderRadius: BorderRadius.circular(20),
                         ),
-                        width: size.width/1.1,
+                        width: size.width / 1.1,
 
                         child: ClipRRect(
                           borderRadius: BorderRadius.circular(20),
@@ -127,7 +126,6 @@ class _DashboardState extends State<Dashboard> {
                             overflow: TextOverflow.ellipsis,
                             maxLines: 2,
                             style: TextStyle(color: Colors.white),
-
                           ),
                         ),
                       ),
@@ -166,7 +164,7 @@ class _DashboardState extends State<Dashboard> {
                           color: Colors.grey,
                           borderRadius: BorderRadius.circular(20),
                         ),
-                        width: size.width/1.1,
+                        width: size.width / 1.1,
 
                         child: ClipRRect(
                           borderRadius: BorderRadius.circular(20),
@@ -195,7 +193,6 @@ class _DashboardState extends State<Dashboard> {
                             overflow: TextOverflow.ellipsis,
                             maxLines: 2,
                             style: TextStyle(color: Colors.white),
-
                           ),
                         ),
                       ),
@@ -234,7 +231,7 @@ class _DashboardState extends State<Dashboard> {
                           color: Colors.grey,
                           borderRadius: BorderRadius.circular(20),
                         ),
-                        width: size.width/1.1,
+                        width: size.width / 1.1,
 
                         child: ClipRRect(
                           borderRadius: BorderRadius.circular(20),
@@ -263,7 +260,6 @@ class _DashboardState extends State<Dashboard> {
                             overflow: TextOverflow.ellipsis,
                             maxLines: 2,
                             style: TextStyle(color: Colors.white),
-
                           ),
                         ),
                       ),
@@ -302,7 +298,7 @@ class _DashboardState extends State<Dashboard> {
                           color: Colors.grey,
                           borderRadius: BorderRadius.circular(20),
                         ),
-                        width: size.width/1.1,
+                        width: size.width / 1.1,
 
                         child: ClipRRect(
                           borderRadius: BorderRadius.circular(20),
@@ -331,7 +327,6 @@ class _DashboardState extends State<Dashboard> {
                             overflow: TextOverflow.ellipsis,
                             maxLines: 2,
                             style: TextStyle(color: Colors.white),
-
                           ),
                         ),
                       ),
@@ -370,7 +365,7 @@ class _DashboardState extends State<Dashboard> {
                           color: Colors.grey,
                           borderRadius: BorderRadius.circular(20),
                         ),
-                        width: size.width/1.1,
+                        width: size.width / 1.1,
 
                         child: ClipRRect(
                           borderRadius: BorderRadius.circular(20),
@@ -399,7 +394,6 @@ class _DashboardState extends State<Dashboard> {
                             overflow: TextOverflow.ellipsis,
                             maxLines: 2,
                             style: TextStyle(color: Colors.white),
-
                           ),
                         ),
                       ),
@@ -438,7 +432,7 @@ class _DashboardState extends State<Dashboard> {
                           color: Colors.grey,
                           borderRadius: BorderRadius.circular(20),
                         ),
-                        width: size.width/1.1,
+                        width: size.width / 1.1,
 
                         child: ClipRRect(
                           borderRadius: BorderRadius.circular(20),
@@ -467,7 +461,6 @@ class _DashboardState extends State<Dashboard> {
                             overflow: TextOverflow.ellipsis,
                             maxLines: 2,
                             style: TextStyle(color: Colors.white),
-
                           ),
                         ),
                       ),
@@ -506,7 +499,7 @@ class _DashboardState extends State<Dashboard> {
                           color: Colors.grey,
                           borderRadius: BorderRadius.circular(20),
                         ),
-                        width: size.width/1.1,
+                        width: size.width / 1.1,
 
                         child: ClipRRect(
                           borderRadius: BorderRadius.circular(20),
@@ -535,7 +528,6 @@ class _DashboardState extends State<Dashboard> {
                             overflow: TextOverflow.ellipsis,
                             maxLines: 2,
                             style: TextStyle(color: Colors.white),
-
                           ),
                         ),
                       ),
@@ -574,7 +566,7 @@ class _DashboardState extends State<Dashboard> {
                           color: Colors.grey,
                           borderRadius: BorderRadius.circular(20),
                         ),
-                        width: size.width/1.1,
+                        width: size.width / 1.1,
 
                         child: ClipRRect(
                           borderRadius: BorderRadius.circular(20),
@@ -603,7 +595,6 @@ class _DashboardState extends State<Dashboard> {
                             overflow: TextOverflow.ellipsis,
                             maxLines: 2,
                             style: TextStyle(color: Colors.white),
-
                           ),
                         ),
                       ),
@@ -642,7 +633,7 @@ class _DashboardState extends State<Dashboard> {
                           color: Colors.grey,
                           borderRadius: BorderRadius.circular(20),
                         ),
-                        width: size.width/1.1,
+                        width: size.width / 1.1,
 
                         child: ClipRRect(
                           borderRadius: BorderRadius.circular(20),
@@ -671,7 +662,6 @@ class _DashboardState extends State<Dashboard> {
                             overflow: TextOverflow.ellipsis,
                             maxLines: 2,
                             style: TextStyle(color: Colors.white),
-
                           ),
                         ),
                       ),
@@ -701,10 +691,361 @@ class _DashboardState extends State<Dashboard> {
                       ),
                     ],
                   ),
-
                 ],
               ),
             ),
+
+            //vertical list data
+            Container(
+              height: size.height/1.8,
+              child: SingleChildScrollView(
+                child: Column(
+                  children: [
+                    Container(
+                      margin: EdgeInsets.all(15),
+                      child: Row(
+                        children: [
+                          Stack(
+                            children: [
+                              Container(
+                                height: 150,
+                                width: 150,
+                                decoration: BoxDecoration(
+                                  color: Colors.grey,
+                                  borderRadius: BorderRadius.circular(20),
+                                ),
+                                child: ClipRRect(
+                                  borderRadius: BorderRadiusGeometry.circular(20),
+                                  child: Image.network(
+                                    fit: BoxFit.cover,
+                                    "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRPhHrXQ3eSpMTCEAO14DNfz4pXJe6x82Ftfrxg0Lt0DQ&s",
+                                  ),
+                                ),
+                              ),
+                              Container(
+                                height: 150,
+                                width: 150,
+                                child: Center(
+                                  child: Icon(
+                                    Icons.play_circle,
+                                    size: 50,
+                                    color: Colors.white,
+                                  ),
+                                ),
+                              ),
+                            ],
+                          ),
+
+                          Column(
+                            children: [
+                              Container(
+                                margin: EdgeInsets.only(left: 15),
+                                width: size.width/2,
+                                  child: Text("Happy Dashain Everyone Celebrations", maxLines: 2,
+                                    overflow: TextOverflow.ellipsis,
+                                  style: TextStyle(fontWeight: FontWeight.bold, fontSize: 16),
+                                  ),
+
+                              ),
+                              Container(
+                                margin: EdgeInsets.all(15),
+                                width: size.width/2.2,
+                                child: Row(
+                                  mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                                  children: [
+                                    Container(
+                                      padding: EdgeInsets.only(left: 15, right: 15, top: 10,bottom: 10),
+                                      decoration: BoxDecoration(
+                                        color: Colors.red
+                                      ),
+                                      child: Text("PCPS.com", style: TextStyle(color: Colors.white),),
+                                    ),
+                                    Text("02 Feb 2026", style: TextStyle(color: Colors.black),),
+                                  ],
+                                ),
+                              )
+                            ],
+                          )
+                        ],
+                      ),
+                    ),
+                    Container(
+                      margin: EdgeInsets.all(15),
+                      child: Row(
+                        children: [
+                          Stack(
+                            children: [
+                              Container(
+                                height: 150,
+                                width: 150,
+                                decoration: BoxDecoration(
+                                  color: Colors.grey,
+                                  borderRadius: BorderRadius.circular(20),
+                                ),
+                                child: ClipRRect(
+                                  borderRadius: BorderRadiusGeometry.circular(20),
+                                  child: Image.network(
+                                    fit: BoxFit.cover,
+                                    "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRPhHrXQ3eSpMTCEAO14DNfz4pXJe6x82Ftfrxg0Lt0DQ&s",
+                                  ),
+                                ),
+                              ),
+                              Container(
+                                height: 150,
+                                width: 150,
+                                child: Center(
+                                  child: Icon(
+                                    Icons.play_circle,
+                                    size: 50,
+                                    color: Colors.white,
+                                  ),
+                                ),
+                              ),
+                            ],
+                          ),
+
+                          Column(
+                            children: [
+                              Container(
+                                margin: EdgeInsets.only(left: 15),
+                                width: size.width/2,
+                                child: Text("Happy Dashain Everyone Celebrations", maxLines: 2,
+                                  overflow: TextOverflow.ellipsis,
+                                  style: TextStyle(fontWeight: FontWeight.bold, fontSize: 16),
+                                ),
+
+                              ),
+                              Container(
+                                margin: EdgeInsets.all(15),
+                                width: size.width/2.2,
+                                child: Row(
+                                  mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                                  children: [
+                                    Container(
+                                      padding: EdgeInsets.only(left: 15, right: 15, top: 10,bottom: 10),
+                                      decoration: BoxDecoration(
+                                          color: Colors.red
+                                      ),
+                                      child: Text("PCPS.com", style: TextStyle(color: Colors.white),),
+                                    ),
+                                    Text("02 Feb 2026", style: TextStyle(color: Colors.black),),
+                                  ],
+                                ),
+                              )
+                            ],
+                          )
+                        ],
+                      ),
+                    ),
+                    Container(
+                      margin: EdgeInsets.all(15),
+                      child: Row(
+                        children: [
+                          Stack(
+                            children: [
+                              Container(
+                                height: 150,
+                                width: 150,
+                                decoration: BoxDecoration(
+                                  color: Colors.grey,
+                                  borderRadius: BorderRadius.circular(20),
+                                ),
+                                child: ClipRRect(
+                                  borderRadius: BorderRadiusGeometry.circular(20),
+                                  child: Image.network(
+                                    fit: BoxFit.cover,
+                                    "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRPhHrXQ3eSpMTCEAO14DNfz4pXJe6x82Ftfrxg0Lt0DQ&s",
+                                  ),
+                                ),
+                              ),
+                              Container(
+                                height: 150,
+                                width: 150,
+                                child: Center(
+                                  child: Icon(
+                                    Icons.play_circle,
+                                    size: 50,
+                                    color: Colors.white,
+                                  ),
+                                ),
+                              ),
+                            ],
+                          ),
+
+                          Column(
+                            children: [
+                              Container(
+                                margin: EdgeInsets.only(left: 15),
+                                width: size.width/2,
+                                child: Text("Happy Dashain Everyone Celebrations", maxLines: 2,
+                                  overflow: TextOverflow.ellipsis,
+                                  style: TextStyle(fontWeight: FontWeight.bold, fontSize: 16),
+                                ),
+
+                              ),
+                              Container(
+                                margin: EdgeInsets.all(15),
+                                width: size.width/2.2,
+                                child: Row(
+                                  mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                                  children: [
+                                    Container(
+                                      padding: EdgeInsets.only(left: 15, right: 15, top: 10,bottom: 10),
+                                      decoration: BoxDecoration(
+                                          color: Colors.red
+                                      ),
+                                      child: Text("PCPS.com", style: TextStyle(color: Colors.white),),
+                                    ),
+                                    Text("02 Feb 2026", style: TextStyle(color: Colors.black),),
+                                  ],
+                                ),
+                              )
+                            ],
+                          )
+                        ],
+                      ),
+                    ),
+                    Container(
+                      margin: EdgeInsets.all(15),
+                      child: Row(
+                        children: [
+                          Stack(
+                            children: [
+                              Container(
+                                height: 150,
+                                width: 150,
+                                decoration: BoxDecoration(
+                                  color: Colors.grey,
+                                  borderRadius: BorderRadius.circular(20),
+                                ),
+                                child: ClipRRect(
+                                  borderRadius: BorderRadiusGeometry.circular(20),
+                                  child: Image.network(
+                                    fit: BoxFit.cover,
+                                    "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRPhHrXQ3eSpMTCEAO14DNfz4pXJe6x82Ftfrxg0Lt0DQ&s",
+                                  ),
+                                ),
+                              ),
+                              Container(
+                                height: 150,
+                                width: 150,
+                                child: Center(
+                                  child: Icon(
+                                    Icons.play_circle,
+                                    size: 50,
+                                    color: Colors.white,
+                                  ),
+                                ),
+                              ),
+                            ],
+                          ),
+
+                          Column(
+                            children: [
+                              Container(
+                                margin: EdgeInsets.only(left: 15),
+                                width: size.width/2,
+                                child: Text("Happy Dashain Everyone Celebrations", maxLines: 2,
+                                  overflow: TextOverflow.ellipsis,
+                                  style: TextStyle(fontWeight: FontWeight.bold, fontSize: 16),
+                                ),
+
+                              ),
+                              Container(
+                                margin: EdgeInsets.all(15),
+                                width: size.width/2.2,
+                                child: Row(
+                                  mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                                  children: [
+                                    Container(
+                                      padding: EdgeInsets.only(left: 15, right: 15, top: 10,bottom: 10),
+                                      decoration: BoxDecoration(
+                                          color: Colors.red
+                                      ),
+                                      child: Text("PCPS.com", style: TextStyle(color: Colors.white),),
+                                    ),
+                                    Text("02 Feb 2026", style: TextStyle(color: Colors.black),),
+                                  ],
+                                ),
+                              )
+                            ],
+                          )
+                        ],
+                      ),
+                    ),
+                    Container(
+                      margin: EdgeInsets.all(15),
+                      child: Row(
+                        children: [
+                          Stack(
+                            children: [
+                              Container(
+                                height: 150,
+                                width: 150,
+                                decoration: BoxDecoration(
+                                  color: Colors.grey,
+                                  borderRadius: BorderRadius.circular(20),
+                                ),
+                                child: ClipRRect(
+                                  borderRadius: BorderRadiusGeometry.circular(20),
+                                  child: Image.network(
+                                    fit: BoxFit.cover,
+                                    "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRPhHrXQ3eSpMTCEAO14DNfz4pXJe6x82Ftfrxg0Lt0DQ&s",
+                                  ),
+                                ),
+                              ),
+                              Container(
+                                height: 150,
+                                width: 150,
+                                child: Center(
+                                  child: Icon(
+                                    Icons.play_circle,
+                                    size: 50,
+                                    color: Colors.white,
+                                  ),
+                                ),
+                              ),
+                            ],
+                          ),
+
+                          Column(
+                            children: [
+                              Container(
+                                margin: EdgeInsets.only(left: 15),
+                                width: size.width/2,
+                                child: Text("Happy Dashain Everyone Celebrations", maxLines: 2,
+                                  overflow: TextOverflow.ellipsis,
+                                  style: TextStyle(fontWeight: FontWeight.bold, fontSize: 16),
+                                ),
+
+                              ),
+                              Container(
+                                margin: EdgeInsets.all(15),
+                                width: size.width/2.2,
+                                child: Row(
+                                  mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                                  children: [
+                                    Container(
+                                      padding: EdgeInsets.only(left: 15, right: 15, top: 10,bottom: 10),
+                                      decoration: BoxDecoration(
+                                          color: Colors.red
+                                      ),
+                                      child: Text("PCPS.com", style: TextStyle(color: Colors.white),),
+                                    ),
+                                    Text("02 Feb 2026", style: TextStyle(color: Colors.black),),
+                                  ],
+                                ),
+                              )
+                            ],
+                          )
+                        ],
+                      ),
+                    ),
+                  ],
+                ),
+              ),
+            ),
+
           ],
         ),
       ),
